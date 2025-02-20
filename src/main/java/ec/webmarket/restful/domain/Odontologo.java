@@ -28,4 +28,8 @@ public class Odontologo {
 
     @Column(name = "correo", nullable = false, unique = true)
     private String correo;
+
+    @OneToOne
+    @JoinColumn(name = "usuario_id", nullable = false)
+    private Usuario usuario;
 }

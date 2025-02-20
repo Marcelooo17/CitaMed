@@ -11,4 +11,5 @@ public class OdontologoDTO {
     private String especialidad;
     private String telefono;
     private String correo;
+    private Long usuarioId;
 }
